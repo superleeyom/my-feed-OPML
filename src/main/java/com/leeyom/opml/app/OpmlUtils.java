@@ -110,15 +110,11 @@ public class OpmlUtils {
         header.append("</details>").append(BR);
     }
 
-    private static File importOpml(String opmlText) throws IOException {
-        File file = new File("my-feed.opml");
-        if (!file.exists()) {
-            file.createNewFile();
-        } else {
-            FileUtil.del(file);
-        }
-        FileUtil.writeUtf8String(opmlText, file);
-        return file;
+    private static File importOpml(String opmlText){
+        File opmlFile = new File("my-feed.opml");
+        FileWriter opmlWriter = new FileWriter(opmlFile);
+        opmlWriter.write(opmlText);
+        return opmlFile;
     }
 
 }
