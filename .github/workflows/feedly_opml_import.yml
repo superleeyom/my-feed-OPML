@@ -30,7 +30,7 @@ jobs:
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_TOKEN }}
-          commit-message: ":memo: update README.md"
+          commit-message: ":memo: update feed.opml"
           files: README.md feed.opml
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
