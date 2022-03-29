@@ -53,6 +53,7 @@ public class OpmlUtils {
     }
 
     private static void updateReadme(File opmlFile) throws FileNotFoundException, OpmlParseException {
+        log.info("===========================开始更新 README.md===========================");
         Opml opml = new OpmlParser().parse(new FileInputStream(opmlFile));
         Body body = opml.getBody();
         List<Outline> originOutlines = body.getOutlines();
@@ -69,7 +70,7 @@ public class OpmlUtils {
         //
         StrBuilder readmd = new StrBuilder();
         readmd.append(new BoldText("分享我订阅的一些Blog和Newsletter"))
-                .append(new Link("，opml地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/my-feed.opml"))
+                .append(new Link("，opml地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
         for (Outline outline : outlines) {
             StrBuilder header = new StrBuilder().append(new Heading(outline.getText(), 2)).append(BR);
@@ -101,6 +102,7 @@ public class OpmlUtils {
         File readmeMd = new File("README.md");
         FileWriter readmeMdWriter = new FileWriter(readmeMd);
         readmeMdWriter.write(readmd.toString());
+        log.info("===========================README.md更新完毕===========================");
     }
 
     private static void displayMore(StrBuilder header, List<Object> linkList) {
@@ -111,9 +113,12 @@ public class OpmlUtils {
     }
 
     private static File importOpml(String opmlText){
-        File opmlFile = new File("my-feed.opml");
+        log.info(opmlText);
+        log.info("===========================开始创建opml===========================");
+        File opmlFile = new File("feed.opml");
         FileWriter opmlWriter = new FileWriter(opmlFile);
         opmlWriter.write(opmlText);
+        log.info("===========================opml创建成功===========================");
         return opmlFile;
     }
 
