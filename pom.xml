@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.leeyom.opml</groupId>
+    <artifactId>feedly-opml-import</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>feedly-opml-import</name>
+    <description>导出feedly的opml</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
+        <hutool-all>5.4.7</hutool-all>
+        <markdowngenerator>1.3.1.1</markdowngenerator>
+        <lombok>1.18.12</lombok>
+        <slf4j>1.6.6</slf4j>
+    </properties>
+
+    <dependencies>
+        <!-- springboot框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool-all}</version>
+        </dependency>
+        <!-- markdown生成器 -->
+        <dependency>
+            <groupId>net.steppschuh.markdowngenerator</groupId>
+            <artifactId>markdowngenerator</artifactId>
+            <version>${markdowngenerator}</version>
+        </dependency>
+        <!-- 日志 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j}</version>
+        </dependency>
+        <!-- opml解析 -->
+        <dependency>
+            <groupId>be.ceau</groupId>
+            <artifactId>opml-parser</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
