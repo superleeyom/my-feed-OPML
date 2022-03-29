@@ -69,8 +69,8 @@ public class OpmlUtils {
         }
         //
         StrBuilder readmd = new StrBuilder();
-        readmd.append(new BoldText("分享我订阅的一些Blog和Newsletter"))
-                .append(new Link("，opml地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
+        readmd.append(new BoldText("分享我订阅的一些Blog和Newsletter，"))
+                .append(new Link("opml地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
         for (Outline outline : outlines) {
             StrBuilder header = new StrBuilder().append(new Heading(outline.getText(), 2)).append(BR);

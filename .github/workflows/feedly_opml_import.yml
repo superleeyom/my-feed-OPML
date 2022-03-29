@@ -31,7 +31,7 @@ jobs:
         with:
           github-token: ${{ secrets.G_TOKEN }}
           commit-message: ":memo: update README.md"
-          files: README.md
+          files: README.md feed.opml
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
