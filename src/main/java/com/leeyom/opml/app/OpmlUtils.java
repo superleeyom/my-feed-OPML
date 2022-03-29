@@ -69,7 +69,7 @@ public class OpmlUtils {
         }
         //
         StrBuilder readmd = new StrBuilder();
-        readmd.append(new BoldText("分享我订阅的一些Blog和Newsletter，每天自动更新我的Feedly上的订阅源，"))
+        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我的 Feedly 上的订阅源，"))
                 .append(new Link("opml地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
         for (Outline outline : outlines) {
