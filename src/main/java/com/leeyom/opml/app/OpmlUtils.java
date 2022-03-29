@@ -113,7 +113,6 @@ public class OpmlUtils {
     }
 
     private static File importOpml(String opmlText){
-        log.info(opmlText);
         log.info("===========================开始创建opml===========================");
         File opmlFile = new File("feed.opml");
         FileWriter opmlWriter = new FileWriter(opmlFile);
