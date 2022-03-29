@@ -1,4 +1,4 @@
-**分享我订阅的一些Blog和Newsletter，**[opml地址](https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml)
+**分享我订阅的一些 Blog 和 Newsletter，每天自动同步我的 Feedly 上的订阅源，**[opml 地址](https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml)
 
 Newsletter
 ----------
