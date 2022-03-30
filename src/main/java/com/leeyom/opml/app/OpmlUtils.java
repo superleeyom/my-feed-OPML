@@ -8,6 +8,7 @@ import be.ceau.opml.entity.Outline;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
 import cn.hutool.core.convert.Convert;
+import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.io.file.FileWriter;
 import cn.hutool.core.text.StrBuilder;
 import cn.hutool.core.util.StrUtil;
@@ -36,6 +37,7 @@ public class OpmlUtils {
     private static final String BR = "\n";
     private static String tgChatId;
     private static String tgToken;
+    private static boolean isAlarm;
 
     public static void main(String[] args) throws IOException, OpmlParseException {
         // 1、请求feedly api
@@ -50,7 +52,7 @@ public class OpmlUtils {
         String feedlyToken = args[0];
         tgChatId = args[1];
         tgToken = args[2];
-        boolean isAlarm = StrUtil.isNotBlank(tgChatId) && StrUtil.isNotBlank(tgToken);
+        isAlarm = StrUtil.isNotBlank(tgChatId) && StrUtil.isNotBlank(tgToken);
         String errMsg;
         if (StrUtil.isBlank(feedlyToken)) {
             errMsg = "feedly token is null!!!";
@@ -83,9 +85,11 @@ public class OpmlUtils {
         }
         //
         StrBuilder readmd = new StrBuilder();
-        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，"))
+        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表已无法订阅，"))
                 .append(new Link("opml 地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
+        // 已失效的订阅
+        StrBuilder invalidFeed = new StrBuilder();
         for (Outline outline : outlines) {
             StrBuilder header = new StrBuilder().append(new Heading(outline.getText(), 2)).append(BR);
             List<Object> linkList = CollUtil.newArrayList();
@@ -102,7 +106,14 @@ public class OpmlUtils {
                 if (StrUtil.isBlank(title)) {
                     continue;
                 }
-                linkList.add(or.append(new Link(title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
+                String tag;
+                if (isOnline(xmlUrl)) {
+                    tag = "✅ ";
+                } else {
+                    tag = "❌ ";
+                    invalidFeed.append(tag).append(title).append("：").append(xmlUrl).append(BR);
+                }
+                linkList.add(or.append(new Link(tag + title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
             }
 
             // 超过20个收起
@@ -113,6 +124,12 @@ public class OpmlUtils {
             }
             readmd.append(header);
         }
+
+        // 对于已失效的订阅，telegram 进行告警
+        if (StrUtil.isNotBlank(invalidFeed)) {
+            sendMsgToTelegram(isAlarm, invalidFeed.toString());
+        }
+
         File readmeMd = new File("README.md");
         FileWriter readmeMdWriter = new FileWriter(readmeMd);
         readmeMdWriter.write(readmd.toString());
@@ -139,6 +156,17 @@ public class OpmlUtils {
         if (isAlarm) {
             TelegramBot bot = new TelegramBot(Convert.toLong(tgChatId), tgToken);
             bot.sendMessage(msg);
+        }
+    }
+
+    private static boolean isOnline(String xmlUrl) {
+        try {
+            Thread.sleep(1000);
+            HttpResponse response = HttpRequest.get(xmlUrl).timeout(20000).execute();
+            return HttpStatus.HTTP_OK == response.getStatus();
+        } catch (Exception e) {
+            log.error(ExceptionUtil.stacktraceToString(e, 1000));
+            return false;
         }
     }
 
