@@ -42,8 +42,6 @@ Blog
 - [程序员的喵](http://catcoding.me/)：[feed](https://catcoding.me/atom.xml)
 - [龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [I'm TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
-<details><summary>显示更多</summary>
-
 - [唐巧的博客](https://blog.devtang.com/)：[feed](http://www.devtang.com/atom.xml)
 - [Randy's Blog](https://lutaonan.com/)：[feed](https://lutaonan.com/rss.xml)
-</details>
+
