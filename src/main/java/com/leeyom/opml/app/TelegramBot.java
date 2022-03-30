@@ -36,10 +36,11 @@ public class TelegramBot {
      * @param msg 消息
      */
     public void sendMessage(String msg) {
+        log.error("Telegram bot msg：{}", msg);
         String url = "https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatId + "&text=" + msg;
         System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
         String response = HttpUtil.get(url, CharsetUtil.CHARSET_UTF_8);
-        log.info(response);
+        log.info("Telegram bot response: {}", response);
     }
 
 }

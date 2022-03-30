@@ -52,6 +52,7 @@ public class OpmlUtils {
         String feedlyToken = args[0];
         tgChatId = args[1];
         tgToken = args[2];
+        log.info("tgChatId：{}", tgChatId);
         isAlarm = StrUtil.isNotBlank(tgChatId) && StrUtil.isNotBlank(tgToken);
         String errMsg;
         if (StrUtil.isBlank(feedlyToken)) {
@@ -116,7 +117,7 @@ public class OpmlUtils {
                 linkList.add(or.append(new Link(tag + title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
             }
 
-            // 超过20个收起
+            // 超过50个收起
             if (linkList.size() > MAX_NUM) {
                 displayMore(header, linkList);
             } else {
@@ -164,6 +165,7 @@ public class OpmlUtils {
             Thread.sleep(3000);
             System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
             HttpResponse response = HttpRequest.get(xmlUrl).timeout(50000).execute();
+            log.info("response msg: {}", xmlUrl + "：" + response.getStatus());
             return HttpStatus.HTTP_OK == response.getStatus();
         } catch (Exception e) {
             log.error(ExceptionUtil.stacktraceToString(e, 1000));
