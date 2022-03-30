@@ -85,7 +85,7 @@ public class OpmlUtils {
         }
         //
         StrBuilder readmd = new StrBuilder();
-        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表已无法订阅，"))
+        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），"))
                 .append(new Link("opml 地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
         // 已失效的订阅
@@ -161,8 +161,9 @@ public class OpmlUtils {
 
     private static boolean isOnline(String xmlUrl) {
         try {
-            Thread.sleep(1000);
-            HttpResponse response = HttpRequest.get(xmlUrl).timeout(20000).execute();
+            Thread.sleep(3000);
+            System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
+            HttpResponse response = HttpRequest.get(xmlUrl).timeout(50000).execute();
             return HttpStatus.HTTP_OK == response.getStatus();
         } catch (Exception e) {
             log.error(ExceptionUtil.stacktraceToString(e, 1000));
