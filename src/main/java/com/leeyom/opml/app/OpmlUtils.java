@@ -7,7 +7,7 @@ import be.ceau.opml.entity.Opml;
 import be.ceau.opml.entity.Outline;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.convert.Convert;
 import cn.hutool.core.io.file.FileWriter;
 import cn.hutool.core.text.StrBuilder;
 import cn.hutool.core.util.StrUtil;
@@ -34,22 +34,36 @@ public class OpmlUtils {
     public static final String IMPORT_OPML_API = "https://cloud.feedly.com/v3/opml";
     private static final int MAX_NUM = 20;
     private static final String BR = "\n";
+    private static String tgChatId;
+    private static String tgToken;
 
     public static void main(String[] args) throws IOException, OpmlParseException {
-        String token = args[0];
-        if (StrUtil.isBlank(token)) {
-            log.error("feedly token is null!!!");
-            return;
-        }
-        HttpResponse response = HttpRequest.get(IMPORT_OPML_API).auth("Bearer " + token).execute();
-        if (response.getStatus() == HttpStatus.HTTP_UNAUTHORIZED) {
-            log.error("feedly token expired!!!");
-            return;
-        }
-        // 导出opml
+        // 1、请求feedly api
+        HttpResponse response = requestFeedlyApi(args);
+        // 2、导出opml
         File file = importOpml(response.body());
-        // 更新README.md
+        // 3、更新README.md
         updateReadme(file);
+    }
+
+    private static HttpResponse requestFeedlyApi(String[] args) {
+        String feedlyToken = args[0];
+        tgChatId = args[1];
+        tgToken = args[2];
+        boolean isAlarm = StrUtil.isNotBlank(tgChatId) && StrUtil.isNotBlank(tgToken);
+        String errMsg;
+        if (StrUtil.isBlank(feedlyToken)) {
+            errMsg = "feedly token is null!!!";
+            sendMsgToTelegram(isAlarm, errMsg);
+            throw new RuntimeException(errMsg);
+        }
+        HttpResponse response = HttpRequest.get(IMPORT_OPML_API).auth("Bearer " + feedlyToken).execute();
+        if (response.getStatus() == HttpStatus.HTTP_UNAUTHORIZED) {
+            errMsg = "feedly token expired!!!";
+            sendMsgToTelegram(isAlarm, errMsg);
+            throw new RuntimeException(errMsg);
+        }
+        return response;
     }
 
     private static void updateReadme(File opmlFile) throws FileNotFoundException, OpmlParseException {
@@ -112,13 +126,20 @@ public class OpmlUtils {
         header.append("</details>").append(BR);
     }
 
-    private static File importOpml(String opmlText){
+    private static File importOpml(String opmlText) {
         log.info("===========================开始创建opml===========================");
         File opmlFile = new File("feed.opml");
         FileWriter opmlWriter = new FileWriter(opmlFile);
         opmlWriter.write(opmlText);
         log.info("===========================opml创建成功===========================");
         return opmlFile;
+    }
+
+    private static void sendMsgToTelegram(boolean isAlarm, String msg) {
+        if (isAlarm) {
+            TelegramBot bot = new TelegramBot(Convert.toLong(tgChatId), tgToken);
+            bot.sendMessage(msg);
+        }
     }
 
 }
