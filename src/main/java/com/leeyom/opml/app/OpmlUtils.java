@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 public class OpmlUtils {
 
     public static final String IMPORT_OPML_API = "https://cloud.feedly.com/v3/opml";
-    private static final int MAX_NUM = 20;
+    private static final int MAX_NUM = 50;
     private static final String BR = "\n";
     private static String tgChatId;
     private static String tgToken;
