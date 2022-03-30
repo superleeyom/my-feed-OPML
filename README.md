@@ -1,4 +1,7 @@
-**分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），**[opml 地址](https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml)
+**<p align="center">[My Feedly OPML](https://github.com/superleeyom/my-feed-OPML)</p>**
+====
+
+**分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
 Newsletter
 ----------
