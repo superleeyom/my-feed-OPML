@@ -90,7 +90,7 @@ public class OpmlUtils {
                 .append(new Link("opml 地址", "https://github.com/superleeyom/my-feed-OPML/blob/master/feed.opml"))
                 .append(BR).append(BR);
         // 已失效的订阅
-        StrBuilder invalidFeed = new StrBuilder();
+
         for (Outline outline : outlines) {
             StrBuilder header = new StrBuilder().append(new Heading(outline.getText(), 2)).append(BR);
             List<Object> linkList = CollUtil.newArrayList();
@@ -112,7 +112,9 @@ public class OpmlUtils {
                     tag = "✅ ";
                 } else {
                     tag = "❌ ";
+                    StrBuilder invalidFeed = new StrBuilder();
                     invalidFeed.append(tag).append(title).append("：").append(xmlUrl).append(BR);
+                    sendMsgToTelegram(isAlarm, invalidFeed.toString());
                 }
                 linkList.add(or.append(new Link(tag + title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
             }
@@ -124,11 +126,6 @@ public class OpmlUtils {
                 header.append(new UnorderedList<>(linkList)).append(BR).append(BR);
             }
             readmd.append(header);
-        }
-
-        // 对于已失效的订阅，telegram 进行告警
-        if (StrUtil.isNotBlank(invalidFeed)) {
-            sendMsgToTelegram(isAlarm, invalidFeed.toString());
         }
 
         File readmeMd = new File("README.md");
@@ -166,7 +163,12 @@ public class OpmlUtils {
             System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
             HttpResponse response = HttpRequest.get(xmlUrl).timeout(50000).execute();
             log.info("response msg: {}", xmlUrl + "：" + response.getStatus());
-            return HttpStatus.HTTP_OK == response.getStatus();
+            return HttpStatus.HTTP_OK == response.getStatus()
+                    || HttpStatus.HTTP_MOVED_PERM == response.getStatus()
+                    || HttpStatus.HTTP_MOVED_TEMP == response.getStatus()
+                    || HttpStatus.HTTP_SEE_OTHER == response.getStatus()
+                    || HttpStatus.HTTP_NOT_MODIFIED == response.getStatus()
+                    || 308 == response.getStatus();
         } catch (Exception e) {
             log.error(ExceptionUtil.stacktraceToString(e, 1000));
             return false;
