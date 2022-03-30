@@ -2,8 +2,9 @@
 
 Newsletter
 ----------
-- [iOS摸鱼周报](https://juejin.cn/user/2242659450368119/posts)：[feed](http://rsshub.app/juejin/posts/2242659450368119)
 - [增长黑客通讯周刊](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)：[feed](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)
+- [iOS摸鱼周报](https://zhangferry.com/)：[feed](https://zhangferry.com/atom.xml)
+- [前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
 - [混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
 - [13的Apple開發者週報](https://ethanhuang13.substack.com)：[feed](https://ethanhuang13.substack.com/feed/)
@@ -12,7 +13,6 @@ Newsletter
 - [阿里云前端技术周刊](https://github.com/aliyunfe/weekly/releases)：[feed](https://github.com/aliyunfe/weekly/releases.atom)
 - [GeekPlux Lab](https://geekplux.zhubai.love/)：[feed](https://rsshub.app/zhubai/geekplux)
 - [Newlearnerの自留地](https://t.me/s/NewlearnerChannel)：[feed](https://rsshub.app/telegram/channel/NewlearnerChannel)
-- [前端食堂技术周刊](https://juejin.cn/user/3491704662669469/posts)：[feed](https://rsshub.app/juejin/posts/3491704662669469)
 - [野生架构师周刊](http://weekly.codelc.com/)：[feed](http://weekly.codelc.com/?format=rss)
 - [DecoHack周刊](https://decohack.zhubai.love/)：[feed](https://rsshub.app/zhubai/decohack)
 - [老司机iOS周报](https://github.com/SwiftOldDriver/iOS-Weekly/releases)：[feed](https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom)
@@ -22,7 +22,6 @@ Newsletter
 
 Blog
 ----
-- [hayami's blog](https://t.me/s/hayami_kiraa)：[feed](https://rsshub.app/telegram/channel/hayami_kiraa)
 - [代码家](https://daimajia.com)：[feed](https://daimajia.com/feed)
 - [iPotato](https://ipotato.me)：[feed](http://ipotato.me/feed)
 - [OneV's Den](https://onevcat.com)：[feed](http://www.onevcat.com/rss/)
@@ -34,6 +33,7 @@ Blog
 - [bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
 - [Limboy's HQ](https://limboy.me/)：[feed](http://feeds.feedburner.com/lzyy)
 - [Leeyom's Blog](https://github.com/superleeyom/blog)：[feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
+- [hayami's blog](https://hayami-blog.typlog.io/)：[feed](https://hayami-blog.typlog.io/feed.xml)
 - [云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
 - [meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
 - [左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)

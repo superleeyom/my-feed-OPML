@@ -7,8 +7,9 @@
     <body>
         <outline text="Must Read" title="Must Read"/>
         <outline text="Newsletter" title="Newsletter">
-            <outline type="rss" text="iOS摸鱼周报" title="iOS摸鱼周报" xmlUrl="http://rsshub.app/juejin/posts/2242659450368119" htmlUrl="https://juejin.cn/user/2242659450368119/posts"/>
             <outline type="rss" text="增长黑客通讯周刊" title="增长黑客通讯周刊" xmlUrl="https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&amp;id=d2c14f8a94" htmlUrl="https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&amp;id=d2c14f8a94"/>
+            <outline type="rss" text="iOS摸鱼周报" title="iOS摸鱼周报" xmlUrl="https://zhangferry.com/atom.xml" htmlUrl="https://zhangferry.com/"/>
+            <outline type="rss" text="前端食堂技术周刊" title="前端食堂技术周刊" xmlUrl="https://rsshub.app/github/issue/Geekhyt/weekly" htmlUrl="https://github.com/Geekhyt/weekly/issues"/>
             <outline type="rss" text="前端精读周刊" title="前端精读周刊" xmlUrl="https://github.com/ascoders/weekly/releases.atom" htmlUrl="https://github.com/ascoders/weekly/releases"/>
             <outline type="rss" text="混沌周刊" title="混沌周刊" xmlUrl="https://weekly.love/feed/atom/" htmlUrl="https://weekly.love"/>
             <outline type="rss" text="13的Apple開發者週報" title="13的Apple開發者週報" xmlUrl="https://ethanhuang13.substack.com/feed/" htmlUrl="https://ethanhuang13.substack.com"/>
@@ -17,7 +18,6 @@
             <outline type="rss" text="阿里云前端技术周刊" title="阿里云前端技术周刊" xmlUrl="https://github.com/aliyunfe/weekly/releases.atom" htmlUrl="https://github.com/aliyunfe/weekly/releases"/>
             <outline type="rss" text="GeekPlux Lab" title="GeekPlux Lab" xmlUrl="https://rsshub.app/zhubai/geekplux" htmlUrl="https://geekplux.zhubai.love/"/>
             <outline type="rss" text="Newlearnerの自留地" title="Newlearnerの自留地" xmlUrl="https://rsshub.app/telegram/channel/NewlearnerChannel" htmlUrl="https://t.me/s/NewlearnerChannel"/>
-            <outline type="rss" text="前端食堂技术周刊" title="前端食堂技术周刊" xmlUrl="https://rsshub.app/juejin/posts/3491704662669469" htmlUrl="https://juejin.cn/user/3491704662669469/posts"/>
             <outline type="rss" text="野生架构师周刊" title="野生架构师周刊" xmlUrl="http://weekly.codelc.com/?format=rss" htmlUrl="http://weekly.codelc.com/"/>
             <outline type="rss" text="DecoHack周刊" title="DecoHack周刊" xmlUrl="https://rsshub.app/zhubai/decohack" htmlUrl="https://decohack.zhubai.love/"/>
             <outline type="rss" text="老司机iOS周报" title="老司机iOS周报" xmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom" htmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases"/>
@@ -26,7 +26,6 @@
             <outline type="rss" text="奇舞周刊" title="奇舞周刊" xmlUrl="https://weekly.75.team/rss" htmlUrl="https://weekly.75.team"/>
         </outline>
         <outline text="Blog" title="Blog">
-            <outline type="rss" text="hayami's blog" title="hayami's blog" xmlUrl="https://rsshub.app/telegram/channel/hayami_kiraa" htmlUrl="https://t.me/s/hayami_kiraa"/>
             <outline type="rss" text="代码家" title="代码家" xmlUrl="https://daimajia.com/feed" htmlUrl="https://daimajia.com"/>
             <outline type="rss" text="iPotato" title="iPotato" xmlUrl="http://ipotato.me/feed" htmlUrl="https://ipotato.me"/>
             <outline type="rss" text="OneV's Den" title="OneV's Den" xmlUrl="http://www.onevcat.com/rss/" htmlUrl="https://onevcat.com"/>
@@ -38,6 +37,7 @@
             <outline type="rss" text="bang’s blog" title="bang’s blog" xmlUrl="http://feeds.feedburner.com/webbang" htmlUrl="http://blog.cnbang.net"/>
             <outline type="rss" text="Limboy's HQ" title="Limboy's HQ" xmlUrl="http://feeds.feedburner.com/lzyy" htmlUrl="https://limboy.me/"/>
             <outline type="rss" text="Leeyom's Blog" title="Leeyom's Blog" xmlUrl="https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml" htmlUrl="https://github.com/superleeyom/blog"/>
+            <outline type="rss" text="hayami's blog" title="hayami's blog" xmlUrl="https://hayami-blog.typlog.io/feed.xml" htmlUrl="https://hayami-blog.typlog.io/"/>
             <outline type="rss" text="云风的BLOG" title="云风的BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" htmlUrl="https://blog.codingnow.com/"/>
             <outline type="rss" text="meditic的博客" title="meditic的博客" xmlUrl="https://meditic.com/feed" htmlUrl="https://meditic.com"/>
             <outline type="rss" text="左耳朵耗子" title="左耳朵耗子" xmlUrl="http://coolshell.cn/feed" htmlUrl="https://coolshell.cn"/>
