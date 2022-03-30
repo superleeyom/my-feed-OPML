@@ -41,7 +41,8 @@ jobs:
         with:
           repo_token: ${{ secrets.G_TOKEN }}
           automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
+          prerelease: false
+          draft: false
+          title: "update OPML"
           files: |
             feed.opml
