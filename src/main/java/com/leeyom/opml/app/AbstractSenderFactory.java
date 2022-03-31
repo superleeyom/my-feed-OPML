@@ -50,13 +50,13 @@ public abstract class AbstractSenderFactory {
     static {
         Map<String, String> envs = System.getenv();
         log.info("环境变量：{}", envs);
-        SENDER = envs.get("INPUT_SENDER");
-        TG_TOKEN = envs.get("INPUT_TG_TOKEN");
-        TG_CHAT_ID = envs.get("INPUT_TG_CHAT_ID");
-        EMAIL = envs.get("INPUT_EMAIL");
-        EMAIL_PASS = envs.get("INPUT_EMAIL_PASS");
-        EMAIL_HOST = envs.get("INPUT_EMAIL_HOST");
-        SC_KEY = envs.get("INPUT_SC_KEY");
+        SENDER = envs.get("SENDER");
+        TG_TOKEN = envs.get("TG_TOKEN");
+        TG_CHAT_ID = envs.get("TG_CHAT_ID");
+        EMAIL = envs.get("EMAIL");
+        EMAIL_PASS = envs.get("EMAIL_PASS");
+        EMAIL_HOST = envs.get("EMAIL_HOST");
+        SC_KEY = envs.get("SC_KEY");
 
         if (StrUtil.isNotBlank(SENDER)) {
             String[] senders = StrUtil.split(SENDER, "&");
