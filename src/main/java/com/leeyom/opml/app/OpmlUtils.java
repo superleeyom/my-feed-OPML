@@ -8,6 +8,7 @@ import be.ceau.opml.entity.Outline;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
 import cn.hutool.core.convert.Convert;
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.io.file.FileWriter;
 import cn.hutool.core.text.StrBuilder;
@@ -91,6 +92,8 @@ public class OpmlUtils {
         readmd.append("====").append(BR).append(BR);
         readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），"))
                 .append(new Link("opml 下载地址", "https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml"))
+                .append(BR).append(BR);
+        readmd.append(new BoldText("最新更新时间：" + DateUtil.now()))
                 .append(BR).append(BR);
 
         for (Outline outline : outlines) {
