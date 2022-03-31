@@ -7,7 +7,6 @@ import be.ceau.opml.entity.Opml;
 import be.ceau.opml.entity.Outline;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ListUtil;
-import cn.hutool.core.convert.Convert;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.exceptions.ExceptionUtil;
@@ -39,9 +38,6 @@ public class OpmlUtils {
     public static final String IMPORT_OPML_API = "https://cloud.feedly.com/v3/opml";
     private static final int MAX_NUM = 50;
     private static final String BR = "\n";
-    private static String tgChatId;
-    private static String tgToken;
-    private static boolean isAlarm;
 
     public static void main(String[] args) throws IOException, OpmlParseException {
         // 1、请求feedly api
@@ -54,20 +50,16 @@ public class OpmlUtils {
 
     private static HttpResponse requestFeedlyApi(String[] args) {
         String feedlyToken = args[0];
-        tgChatId = args[1];
-        tgToken = args[2];
-        log.info("tgChatId：{}", tgChatId);
-        isAlarm = StrUtil.isNotBlank(tgChatId) && StrUtil.isNotBlank(tgToken);
         String errMsg;
         if (StrUtil.isBlank(feedlyToken)) {
             errMsg = "feedly token is null!!!";
-            sendMsgToTelegram(isAlarm, errMsg);
+            sendMsg(errMsg);
             throw new RuntimeException(errMsg);
         }
         HttpResponse response = HttpRequest.get(IMPORT_OPML_API).auth("Bearer " + feedlyToken).execute();
         if (response.getStatus() == HttpStatus.HTTP_UNAUTHORIZED) {
             errMsg = "feedly token expired!!!";
-            sendMsgToTelegram(isAlarm, errMsg);
+            sendMsg(errMsg);
             throw new RuntimeException(errMsg);
         }
         return response;
@@ -123,7 +115,7 @@ public class OpmlUtils {
                     tag = "❌ ";
                     StrBuilder invalidFeed = new StrBuilder();
                     invalidFeed.append(tag).append(title).append("：").append(xmlUrl).append(BR);
-                    sendMsgToTelegram(isAlarm, invalidFeed.toString());
+                    sendMsg(invalidFeed.toString());
                 }
                 linkList.add(or.append(new Link(tag + title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
             }
@@ -159,11 +151,8 @@ public class OpmlUtils {
         return opmlFile;
     }
 
-    private static void sendMsgToTelegram(boolean isAlarm, String msg) {
-        if (isAlarm) {
-            TelegramBot bot = new TelegramBot(Convert.toLong(tgChatId), tgToken);
-            bot.sendMessage(msg);
-        }
+    private static void sendMsg(String msg) {
+        AbstractSenderFactory.send(msg);
     }
 
     private static boolean isOnline(String xmlUrl) {

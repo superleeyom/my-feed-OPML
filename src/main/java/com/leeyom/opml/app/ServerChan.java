@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Data
-public class ServerChan {
+public class ServerChan implements Sender {
 
     private static final String URL = "https://sctapi.ftqq.com/{}.send";
     private static final String PARAM = "title={}&desp={}";
@@ -24,6 +24,12 @@ public class ServerChan {
         this.key = key;
     }
 
+    @Override
+    public void sendMessage(String content) {
+        sendMessage("my-feed-OPML msg", content);
+    }
+
+    @Override
     public void sendMessage(String title, String content) {
         String url = StrUtil.format(URL, key);
         String params = StrUtil.format(PARAM, title, content);

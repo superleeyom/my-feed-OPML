@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Data
-public class Mail {
+public class Mail implements Sender {
 
     private MailAccount mailAccount = new MailAccount();
     private String to;
@@ -25,6 +25,12 @@ public class Mail {
         this.to = email;
     }
 
+    @Override
+    public void sendMessage(String content) {
+        sendMessage("my-feed-OPML msg", content);
+    }
+
+    @Override
     public void sendMessage(String title, String content) {
         try {
             MailUtil.send(mailAccount, to, title, content, true);
