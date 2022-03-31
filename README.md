@@ -3,7 +3,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间：2022-03-31 11:00:23**
+**最新更新时间：2022-03-31 11:06:43**
 
 Newsletter
 ----------
@@ -11,7 +11,7 @@ Newsletter
 - [✅ iOS摸鱼周报](https://zhangferry.com/)：[feed](https://zhangferry.com/atom.xml)
 - [✅ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
-- [❌ 混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
+- [✅ 混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
 - [✅ 13的Apple開發者週報](https://ethanhuang13.substack.com)：[feed](https://ethanhuang13.substack.com/feed/)
 - [✅ HelloGitHub月刊](https://hellogithub.com)：[feed](https://hellogithub.com/rss)
 - [✅ 编程狂人周刊](https://www.tuicool.com/mags)：[feed](http://www.tuicool.com/mags/rss_programming.rss)
