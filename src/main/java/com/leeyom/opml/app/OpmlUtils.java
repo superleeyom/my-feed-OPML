@@ -49,7 +49,7 @@ public class OpmlUtils {
     }
 
     private static HttpResponse requestFeedlyApi(String[] args) {
-        String feedlyToken = args[0];
+        String feedlyToken = System.getenv("FEEDLY_TOKEN");
         String errMsg;
         if (StrUtil.isBlank(feedlyToken)) {
             errMsg = "feedly token is null!!!";
