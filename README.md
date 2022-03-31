@@ -3,6 +3,8 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram bot 提醒我更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
+**最新更新时间：2022-03-31 02:14:24**
+
 Newsletter
 ----------
 - [✅ 增长黑客通讯周刊](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)：[feed](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)
@@ -32,7 +34,6 @@ Blog
 - [✅ 阮一峰的网络日志](http://www.ruanyifeng.com/blog/)：[feed](http://feeds.feedburner.com/ruanyifeng)
 - [✅ yihong0618](https://github.com/yihong0618/gitblog)：[feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
 - [✅ forecho's Blog](https://blog.forecho.com/)：[feed](http://blog.forecho.com/atom.xml)
-- [✅ 美团技术团队](https://tech.meituan.com/feed/)：[feed](https://rsshub.app/meituan/tech/home)
 - [✅ codedump的网络日志](https://www.codedump.info/)：[feed](https://www.codedump.info/index.xml)
 - [✅ bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
 - [✅ Limboy](https://limboy.me)：[feed](https://limboy.me/index.xml)
@@ -45,6 +46,7 @@ Blog
 - [✅ Shyrism](https://shyrz.me/)：[feed](https://shyrz.me/rss/)
 - [✅ crossoverJie's Blog](http://crossoverjie.top/)：[feed](https://crossoverjie.top/atom.xml)
 - [✅ 程序员的喵](http://catcoding.me/)：[feed](https://catcoding.me/atom.xml)
+- [✅ 美团技术团队](https://tech.meituan.com/feed/)：[feed](http://tech.meituan.com/atom.xml)
 - [✅ 龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [✅ TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
 - [✅ Randy's Blog](https://lutaonan.com/)：[feed](https://lutaonan.com/rss.xml)
