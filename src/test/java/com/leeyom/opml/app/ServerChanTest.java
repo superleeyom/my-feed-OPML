@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 class ServerChanTest {
 
     @Test
-    void send() {
+    void sendMessage() {
         ServerChan serverChan = new ServerChan("");
-        serverChan.send("serverChan title", "serverChan content");
+        serverChan.sendMessage("serverChan title", "serverChan content");
     }
 }

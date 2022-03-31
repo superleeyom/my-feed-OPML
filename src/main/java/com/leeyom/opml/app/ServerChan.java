@@ -24,7 +24,7 @@ public class ServerChan {
         this.key = key;
     }
 
-    public void send(String title, String content) {
+    public void sendMessage(String title, String content) {
         String url = StrUtil.format(URL, key);
         String params = StrUtil.format(PARAM, title, content);
         try {
