@@ -33,7 +33,6 @@
             <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="http://feeds.feedburner.com/ruanyifeng" htmlUrl="http://www.ruanyifeng.com/blog/"/>
             <outline type="rss" text="yihong0618" title="yihong0618" xmlUrl="https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml" htmlUrl="https://github.com/yihong0618/gitblog"/>
             <outline type="rss" text="forecho's Blog" title="forecho's Blog" xmlUrl="http://blog.forecho.com/atom.xml" htmlUrl="https://blog.forecho.com/"/>
-            <outline type="rss" text="美团技术团队" title="美团技术团队" xmlUrl="https://rsshub.app/meituan/tech/home" htmlUrl="https://tech.meituan.com/feed/"/>
             <outline type="rss" text="codedump的网络日志" title="codedump的网络日志" xmlUrl="https://www.codedump.info/index.xml" htmlUrl="https://www.codedump.info/"/>
             <outline type="rss" text="bang’s blog" title="bang’s blog" xmlUrl="http://feeds.feedburner.com/webbang" htmlUrl="http://blog.cnbang.net"/>
             <outline type="rss" text="Limboy" title="Limboy" xmlUrl="https://limboy.me/index.xml" htmlUrl="https://limboy.me"/>
@@ -46,6 +45,7 @@
             <outline type="rss" text="Shyrism" title="Shyrism" xmlUrl="https://shyrz.me/rss/" htmlUrl="https://shyrz.me/"/>
             <outline type="rss" text="crossoverJie's Blog" title="crossoverJie's Blog" xmlUrl="https://crossoverjie.top/atom.xml" htmlUrl="http://crossoverjie.top/"/>
             <outline type="rss" text="程序员的喵" title="程序员的喵" xmlUrl="https://catcoding.me/atom.xml" htmlUrl="http://catcoding.me/"/>
+            <outline type="rss" text="美团技术团队" title="美团技术团队" xmlUrl="http://tech.meituan.com/atom.xml" htmlUrl="https://tech.meituan.com/feed/"/>
             <outline type="rss" text="龙爪槐守望者" title="龙爪槐守望者" xmlUrl="http://www.ftium4.com/rss.xml" htmlUrl="http://www.ftium4.com/"/>
             <outline type="rss" text="TualatriX" title="TualatriX" xmlUrl="http://imtx.me/feed/latest/" htmlUrl="http://imtx.me/"/>
             <outline type="rss" text="Randy's Blog" title="Randy's Blog" xmlUrl="https://lutaonan.com/rss.xml" htmlUrl="https://lutaonan.com/"/>
