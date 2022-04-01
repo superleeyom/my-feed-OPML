@@ -16,6 +16,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpStatus;
+import com.leeyom.opml.app.sender.SenderFactory;
 import lombok.extern.slf4j.Slf4j;
 import net.steppschuh.markdowngenerator.link.Link;
 import net.steppschuh.markdowngenerator.list.UnorderedList;
@@ -41,25 +42,25 @@ public class OpmlUtils {
 
     public static void main(String[] args) throws IOException, OpmlParseException {
         // 1、请求feedly api
-        HttpResponse response = requestFeedlyApi(args);
+        HttpResponse response = requestFeedlyApi();
         // 2、导出opml
         File file = importOpml(response.body());
         // 3、更新README.md
         updateReadme(file);
     }
 
-    private static HttpResponse requestFeedlyApi(String[] args) {
+    private static HttpResponse requestFeedlyApi() {
         String feedlyToken = System.getenv("FEEDLY_TOKEN");
         String errMsg;
         if (StrUtil.isBlank(feedlyToken)) {
             errMsg = "feedly token is null!!!";
-            sendMsg(errMsg);
+            SenderFactory.send(errMsg);
             throw new RuntimeException(errMsg);
         }
         HttpResponse response = HttpRequest.get(IMPORT_OPML_API).auth("Bearer " + feedlyToken).execute();
         if (response.getStatus() == HttpStatus.HTTP_UNAUTHORIZED) {
             errMsg = "feedly token expired!!!";
-            sendMsg(errMsg);
+            SenderFactory.send(errMsg);
             throw new RuntimeException(errMsg);
         }
         return response;
@@ -82,11 +83,12 @@ public class OpmlUtils {
         }
 
         // header
+        String githubName = System.getenv("GITHUB_NAME");
         StrBuilder readmd = new StrBuilder();
         readmd.append("**<p align=\"center\">[My Feedly OPML](https://github.com/superleeyom/my-feed-OPML)</p>**").append(BR);
         readmd.append("====").append(BR).append(BR);
         readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram Bot 提醒我更新），"))
-                .append(new Link("opml 下载地址", "https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml"))
+                .append(new Link("opml 下载地址", "https://github.com/" + githubName + "/my-feed-OPML/releases/download/latest/feed.opml"))
                 .append(BR).append(BR);
         // github actions 上用的是零时区，需要转成北京时间，+8个小时
         readmd.append(new BoldText("最新更新时间（北京时间）：" + utcToBeijing(new Date())))
@@ -115,7 +117,7 @@ public class OpmlUtils {
                     tag = "❌ ";
                     StrBuilder invalidFeed = new StrBuilder();
                     invalidFeed.append(tag).append(title).append("：").append(xmlUrl).append(BR);
-                    sendMsg(invalidFeed.toString());
+                    SenderFactory.send(invalidFeed.toString());
                 }
                 linkList.add(or.append(new Link(tag + title, htmlUrl)).append("：").append(new Link("feed", xmlUrl)));
             }
@@ -149,10 +151,6 @@ public class OpmlUtils {
         opmlWriter.write(opmlText);
         log.info("===========================opml创建成功===========================");
         return opmlFile;
-    }
-
-    private static void sendMsg(String msg) {
-        AbstractSenderFactory.send(msg);
     }
 
     private static boolean isOnline(String xmlUrl) {

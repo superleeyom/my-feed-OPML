@@ -1,4 +1,4 @@
-package com.leeyom.opml.app;
+package com.leeyom.opml.app.sender;
 
 import cn.hutool.extra.mail.MailAccount;
 import cn.hutool.extra.mail.MailUtil;

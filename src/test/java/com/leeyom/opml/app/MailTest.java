@@ -1,5 +1,6 @@
 package com.leeyom.opml.app;
 
+import com.leeyom.opml.app.sender.Mail;
 import org.junit.jupiter.api.Test;
 
 class MailTest {

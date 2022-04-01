@@ -1,4 +1,4 @@
-package com.leeyom.opml.app;
+package com.leeyom.opml.app.sender;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;

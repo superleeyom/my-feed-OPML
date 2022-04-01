@@ -1,4 +1,4 @@
-package com.leeyom.opml.app;
+package com.leeyom.opml.app.sender;
 
 /**
  * 发送行为
@@ -9,13 +9,17 @@ package com.leeyom.opml.app;
 public interface Sender {
 
     /**
-     * @param content
+     * 消息推送
+     *
+     * @param content 消息内容
      */
     void sendMessage(String content);
 
     /**
-     * @param title
-     * @param content
+     * 消息推送
+     *
+     * @param title   标题
+     * @param content 消息内容
      */
     void sendMessage(String title, String content);
 }

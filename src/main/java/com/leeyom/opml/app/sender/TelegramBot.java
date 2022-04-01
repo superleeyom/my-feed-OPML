@@ -1,4 +1,4 @@
-package com.leeyom.opml.app;
+package com.leeyom.opml.app.sender;
 
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.http.HttpUtil;
@@ -46,6 +46,7 @@ public class TelegramBot implements Sender {
 
     @Override
     public void sendMessage(String title, String content) {
+
     }
 
 }

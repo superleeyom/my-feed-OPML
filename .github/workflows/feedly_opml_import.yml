@@ -26,8 +26,8 @@ jobs:
       - name: execute application
         run: mvn -B clean compile exec:java -Dexec.mainClass="com.leeyom.opml.app.OpmlUtils" --file pom.xml
         env:
+          GITHUB_NAME: ${{ env.GITHUB_NAME }}
           FEEDLY_TOKEN: ${{ secrets.FEEDLY_TOKEN }}
-          SENDER: ${{ secrets.SENDER }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           EMAIL: ${{ secrets.EMAIL }}
