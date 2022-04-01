@@ -3,7 +3,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram Bot 提醒我更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-04-01 10:34:41**
+**最新更新时间（北京时间）：2022-04-01 14:48:57**
 
 Newsletter
 ----------
@@ -31,7 +31,7 @@ Blog
 - [✅ iPotato](https://ipotato.me)：[feed](http://ipotato.me/feed)
 - [✅ Eason Yang's Blog](https://easonyang.com/)：[feed](https://easonyang.com/atom.xml)
 - [✅ 阮一峰的网络日志](http://www.ruanyifeng.com/blog/)：[feed](http://feeds.feedburner.com/ruanyifeng)
-- [✅ 王登科-DK博客](https://greatdk.com)：[feed](https://greatdk.com/feed)
+- [✅ 王登科的博客](https://greatdk.com)：[feed](https://greatdk.com/feed)
 - [✅ forecho's Blog](https://blog.forecho.com/)：[feed](http://blog.forecho.com/atom.xml)
 - [✅ Limboy](https://limboy.me)：[feed](https://limboy.me/index.xml)
 - [✅ Leeyom's Blog](https://github.com/superleeyom/blog)：[feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
