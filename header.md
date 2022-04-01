@@ -12,10 +12,10 @@
 - fork 本仓库
 
 - 在 `Settings --> Secrets --> Actions` 下新增如下的几个 secrets：
-   - **FEEDLY_TOKEN**：**必须**，你的 feedly token，访问 [https://feedly.com/v3/auth/dev](https://feedly.com/v3/auth/dev)，创建一个开发者 token
+   - **FEEDLY_TOKEN**：**必须**，你的 Feedly token，访问 [https://feedly.com/v3/auth/dev](https://feedly.com/v3/auth/dev)，创建一个开发者 token
    - **G_TOKEN**：**必须**，你的 [Github Token](https://github.com/settings/tokens/new)，scope 不知道选啥，就全部勾上，然后拷贝生成的 token
-   - **TG_CHAT_ID**：可选，你的 telegram user id，关注机器人 [@getuseridbot](https://t.me/getuseridbot) 即可获取
-   - **TG_TOKEN**：可选，你的用于接收通知的 telegram bot 的 token，如何创建 telegram bot，见：https://zhuanlan.zhihu.com/p/59228574
+   - **TG_CHAT_ID**：可选，你的 Telegram user id，关注机器人 [@getuseridbot](https://t.me/getuseridbot) 即可获取
+   - **TG_TOKEN**：可选，你的用于接收通知的 telegram bot 的 token，如何创建 Telegram Bot，见搜索引擎
    - **EMAI**L：可选，你的用于接收通知的邮箱
    - **EMAIL_PASS**：可选，你的邮箱授权密码
    - **EMAIL_HOST**：可选，邮箱协议
