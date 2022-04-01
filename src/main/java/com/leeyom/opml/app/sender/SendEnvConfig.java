@@ -20,20 +20,20 @@ public class SendEnvConfig {
     /**
      * telegram
      */
-    private static String TG_TOKEN;
-    private static String TG_CHAT_ID;
+    private static final String TG_TOKEN;
+    private static final String TG_CHAT_ID;
 
     /**
      * email
      */
-    private static String EMAIL;
-    private static String EMAIL_PASS;
-    private static String EMAIL_HOST;
+    private static final String EMAIL;
+    private static final String EMAIL_PASS;
+    private static final String EMAIL_HOST;
 
     /**
      * server酱
      */
-    private static String SC_KEY;
+    private static final String SC_KEY;
 
     /**
      * 消息推送器
@@ -53,19 +53,19 @@ public class SendEnvConfig {
         if (StrUtil.isNotBlank(TG_CHAT_ID) && StrUtil.isNotBlank(TG_TOKEN)) {
             SENDERS.add(new TelegramBot(Convert.toLong(TG_CHAT_ID), TG_TOKEN));
         } else {
-            log.error("telegram sender init fail, please check TG_CHAT_ID and TG_TOKEN.");
+            log.warn("telegram sender init fail, please check TG_CHAT_ID and TG_TOKEN.");
         }
 
         if (StrUtil.isNotBlank(EMAIL_HOST) && StrUtil.isNotBlank(EMAIL_PASS) && StrUtil.isNotBlank(EMAIL)) {
             SENDERS.add(new Mail(EMAIL_HOST, EMAIL_PASS, EMAIL));
         } else {
-            log.error("email sender init fail, please check EMAIL_HOST and EMAIL_PASS and EMAIL.");
+            log.warn("email sender init fail, please check EMAIL_HOST and EMAIL_PASS and EMAIL.");
         }
 
         if (StrUtil.isNotBlank(SC_KEY)) {
             SENDERS.add(new ServerChan(SC_KEY));
         } else {
-            log.error("serverChan sender init fail, please check SC_KEY.");
+            log.warn("serverChan sender init fail, please check SC_KEY.");
         }
     }
 

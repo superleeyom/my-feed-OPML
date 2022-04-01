@@ -16,7 +16,7 @@ public abstract class SenderFactory {
 
     public static void send(String msg) {
         if (StrUtil.isBlank(msg)) {
-            log.error("send msg fail, msg is empty.");
+            log.warn("send msg fail, msg is empty.");
             return;
         }
         SendEnvConfig.SENDERS.forEach(sender -> sender.sendMessage(msg));

@@ -24,7 +24,7 @@
     </properties>
 
     <dependencies>
-        <!-- springboot框架 -->
+        <!-- springBoot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -53,7 +53,7 @@
             <artifactId>hutool-all</artifactId>
             <version>${hutool-all}</version>
         </dependency>
-        <!-- markdown生成器 -->
+        <!-- markdown -->
         <dependency>
             <groupId>net.steppschuh.markdowngenerator</groupId>
             <artifactId>markdowngenerator</artifactId>
@@ -96,6 +96,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

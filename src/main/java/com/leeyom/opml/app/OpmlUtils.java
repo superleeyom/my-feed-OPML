@@ -72,13 +72,13 @@ public class OpmlUtils {
         Body body = opml.getBody();
         List<Outline> originOutlines = body.getOutlines();
         if (CollUtil.isEmpty(originOutlines)) {
-            log.error("originOutlines is empty!!!");
+            log.warn("originOutlines is empty!!!");
             return;
         }
         // 过滤掉 Must Read
         List<Outline> outlines = originOutlines.stream().filter(o -> !"Must Read".equals(o.getText())).collect(Collectors.toList());
         if (CollUtil.isEmpty(outlines)) {
-            log.error("outlines is empty!!!");
+            log.warn("outlines is empty!!!");
             return;
         }
 
