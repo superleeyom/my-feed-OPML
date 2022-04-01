@@ -10,6 +10,7 @@ import cn.hutool.core.collection.ListUtil;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.exceptions.ExceptionUtil;
+import cn.hutool.core.io.file.FileReader;
 import cn.hutool.core.io.file.FileWriter;
 import cn.hutool.core.text.StrBuilder;
 import cn.hutool.core.util.StrUtil;
@@ -20,7 +21,6 @@ import com.leeyom.opml.app.sender.SenderFactory;
 import lombok.extern.slf4j.Slf4j;
 import net.steppschuh.markdowngenerator.link.Link;
 import net.steppschuh.markdowngenerator.list.UnorderedList;
-import net.steppschuh.markdowngenerator.text.emphasis.BoldText;
 import net.steppschuh.markdowngenerator.text.heading.Heading;
 
 import java.io.File;
@@ -83,16 +83,12 @@ public class OpmlUtils {
         }
 
         // header
-        String githubName = System.getenv("GITHUB_NAME");
         StrBuilder readmd = new StrBuilder();
-        readmd.append("**<p align=\"center\">[My Feedly OPML](https://github.com/").append(githubName).append("/my-feed-OPML)</p>**").append(BR);
-        readmd.append("====").append(BR).append(BR);
-        readmd.append(new BoldText("分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），"))
-                .append(new Link("opml 下载地址", "https://github.com/" + githubName + "/my-feed-OPML/releases/download/latest/feed.opml"))
-                .append(BR).append(BR);
-        // github actions 上用的是零时区，需要转成北京时间，+8个小时
-        readmd.append(new BoldText("最新更新时间（北京时间）：" + utcToBeijing(new Date())))
-                .append(BR).append(BR);
+        String githubName = System.getenv("GITHUB_NAME");
+        FileReader fileReader = new FileReader("header.md");
+        String headerMdStr = fileReader.readString();
+        String headerMd = StrUtil.format(headerMdStr, githubName, githubName, utcToBeijing(new Date()));
+        readmd.append(headerMd);
 
         for (Outline outline : outlines) {
             StrBuilder header = new StrBuilder().append(new Heading(outline.getText(), 2)).append(BR);

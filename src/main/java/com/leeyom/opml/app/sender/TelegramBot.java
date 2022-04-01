@@ -37,11 +37,14 @@ public class TelegramBot implements Sender {
      */
     @Override
     public void sendMessage(String msg) {
-        log.error("Telegram bot msg：{}", msg);
-        String url = "https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatId + "&text=" + msg;
-        System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
-        String response = HttpUtil.get(url, CharsetUtil.CHARSET_UTF_8);
-        log.info("Telegram bot response: {}", response);
+        try {
+            String url = "https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatId + "&text=" + msg;
+            System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
+            String response = HttpUtil.get(url, CharsetUtil.CHARSET_UTF_8);
+            log.info("Telegram bot response: {}", response);
+        } catch (Exception e) {
+            log.error("Telegram Bot send error", e);
+        }
     }
 
     @Override
