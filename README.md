@@ -3,7 +3,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，会通过 Telegram Bot 提醒我更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-04-01 10:02:25**
+**最新更新时间（北京时间）：2022-04-01 10:34:41**
 
 Newsletter
 ----------
@@ -28,25 +28,28 @@ Newsletter
 
 Blog
 ----
-- [✅ 代码家](https://daimajia.com)：[feed](https://daimajia.com/feed)
 - [✅ iPotato](https://ipotato.me)：[feed](http://ipotato.me/feed)
-- [✅ OneV's Den](https://onevcat.com)：[feed](http://www.onevcat.com/rss/)
+- [✅ Eason Yang's Blog](https://easonyang.com/)：[feed](https://easonyang.com/atom.xml)
 - [✅ 阮一峰的网络日志](http://www.ruanyifeng.com/blog/)：[feed](http://feeds.feedburner.com/ruanyifeng)
-- [✅ yihong0618](https://github.com/yihong0618/gitblog)：[feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
+- [✅ 王登科-DK博客](https://greatdk.com)：[feed](https://greatdk.com/feed)
 - [✅ forecho's Blog](https://blog.forecho.com/)：[feed](http://blog.forecho.com/atom.xml)
-- [✅ codedump的网络日志](https://www.codedump.info/)：[feed](https://www.codedump.info/index.xml)
-- [✅ bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
 - [✅ Limboy](https://limboy.me)：[feed](https://limboy.me/index.xml)
 - [✅ Leeyom's Blog](https://github.com/superleeyom/blog)：[feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
 - [✅ 唐巧的博客](https://blog.devtang.com/)：[feed](http://blog.devtang.com/atom.xml)
-- [✅ hayami's blog](https://hayami-blog.typlog.io/)：[feed](https://hayami-blog.typlog.io/feed.xml)
-- [✅ 云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
-- [✅ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
-- [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
+- [✅ 马大伟](https://www.bmpi.dev/)：[feed](https://www.bmpi.dev/index.xml)
 - [✅ Shyrism](https://shyrz.me/)：[feed](https://shyrz.me/rss/)
 - [✅ crossoverJie's Blog](http://crossoverjie.top/)：[feed](https://crossoverjie.top/atom.xml)
 - [✅ 程序员的喵](http://catcoding.me/)：[feed](https://catcoding.me/atom.xml)
 - [✅ 美团技术团队](https://tech.meituan.com/feed/)：[feed](http://tech.meituan.com/atom.xml)
+- [✅ 代码家](https://daimajia.com)：[feed](https://daimajia.com/feed)
+- [✅ OneV's Den](https://onevcat.com)：[feed](http://www.onevcat.com/rss/)
+- [✅ yihong0618](https://github.com/yihong0618/gitblog)：[feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
+- [✅ codedump的网络日志](https://www.codedump.info/)：[feed](https://www.codedump.info/index.xml)
+- [✅ bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
+- [✅ hayami's blog](https://hayami-blog.typlog.io/)：[feed](https://hayami-blog.typlog.io/feed.xml)
+- [✅ 云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
+- [✅ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
+- [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
 - [✅ 龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [✅ TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
 - [✅ Randy's Blog](https://lutaonan.com/)：[feed](https://lutaonan.com/rss.xml)
