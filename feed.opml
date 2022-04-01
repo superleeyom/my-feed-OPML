@@ -2,7 +2,7 @@
 
 <opml version="1.0">
     <head>
-        <title>null subscriptions in feedly Cloud</title>
+        <title>Leeyom subscriptions in feedly Cloud</title>
     </head>
     <body>
         <outline text="Must Read" title="Must Read"/>
@@ -30,7 +30,7 @@
             <outline type="rss" text="iPotato" title="iPotato" xmlUrl="http://ipotato.me/feed" htmlUrl="https://ipotato.me"/>
             <outline type="rss" text="Eason Yang's Blog" title="Eason Yang's Blog" xmlUrl="https://easonyang.com/atom.xml" htmlUrl="https://easonyang.com/"/>
             <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="http://feeds.feedburner.com/ruanyifeng" htmlUrl="http://www.ruanyifeng.com/blog/"/>
-            <outline type="rss" text="王登科-DK博客" title="王登科-DK博客" xmlUrl="https://greatdk.com/feed" htmlUrl="https://greatdk.com"/>
+            <outline type="rss" text="王登科的博客" title="王登科的博客" xmlUrl="https://greatdk.com/feed" htmlUrl="https://greatdk.com"/>
             <outline type="rss" text="forecho's Blog" title="forecho's Blog" xmlUrl="http://blog.forecho.com/atom.xml" htmlUrl="https://blog.forecho.com/"/>
             <outline type="rss" text="Limboy" title="Limboy" xmlUrl="https://limboy.me/index.xml" htmlUrl="https://limboy.me"/>
             <outline type="rss" text="Leeyom's Blog" title="Leeyom's Blog" xmlUrl="https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml" htmlUrl="https://github.com/superleeyom/blog"/>
