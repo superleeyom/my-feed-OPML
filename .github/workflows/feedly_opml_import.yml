@@ -24,7 +24,16 @@ jobs:
           java-version: 1.8
 
       - name: execute application
-        run: mvn -B clean compile exec:java -Dexec.mainClass="com.leeyom.opml.app.OpmlUtils" -Dexec.args="${{ secrets.FEEDLY_TOKEN }} ${{ secrets.TG_CHAT_ID }} ${{ secrets.TG_TOKEN }}" --file pom.xml
+        run: mvn -B clean compile exec:java -Dexec.mainClass="com.leeyom.opml.app.OpmlUtils" --file pom.xml
+        env:
+          FEEDLY_TOKEN: ${{ secrets.FEEDLY_TOKEN }}
+          SENDER: ${{ secrets.SENDER }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          EMAIL: ${{ secrets.EMAIL }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+          SC_KEY: ${{ secrets.SC_KEY }}
 
       - name: update README.md
         uses: github-actions-x/commit@v2.6

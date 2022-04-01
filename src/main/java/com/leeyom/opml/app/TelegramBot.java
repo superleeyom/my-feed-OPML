@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @Data
-public class TelegramBot {
+public class TelegramBot implements Sender {
 
     /**
      * 聊天id
@@ -35,12 +35,17 @@ public class TelegramBot {
      *
      * @param msg 消息
      */
+    @Override
     public void sendMessage(String msg) {
         log.error("Telegram bot msg：{}", msg);
         String url = "https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatId + "&text=" + msg;
         System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2,SSLv3");
         String response = HttpUtil.get(url, CharsetUtil.CHARSET_UTF_8);
         log.info("Telegram bot response: {}", response);
+    }
+
+    @Override
+    public void sendMessage(String title, String content) {
     }
 
 }
