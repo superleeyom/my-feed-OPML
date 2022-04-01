@@ -85,7 +85,7 @@ public class OpmlUtils {
         // header
         StrBuilder readmd = new StrBuilder();
         String githubName = System.getenv("GITHUB_NAME");
-        FileReader fileReader = new FileReader("header.md");
+        FileReader fileReader = new FileReader(new File("header.md"));
         String headerMdStr = fileReader.readString();
         String headerMd = StrUtil.format(headerMdStr, githubName, githubName, utcToBeijing(new Date()));
         readmd.append(headerMd);
