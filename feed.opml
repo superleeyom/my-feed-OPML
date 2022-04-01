@@ -23,6 +23,7 @@
             <outline type="rss" text="Random Thoughts" title="Random Thoughts" xmlUrl="https://blog.joway.io/index.xml" htmlUrl="https://blog.joway.io/"/>
             <outline type="rss" text="构建我的被动收入" title="构建我的被动收入" xmlUrl="https://www.bmpi.dev/index.xml" htmlUrl="https://www.bmpi.dev/"/>
             <outline type="rss" text="菜鸡也有大佬梦" title="菜鸡也有大佬梦" xmlUrl="https://blog.csdn.net/weixin_43934607/rss/list" htmlUrl="https://blog.csdn.net/weixin_43934607"/>
+            <outline type="rss" text="胡阳广的博客" title="胡阳广的博客" xmlUrl="https://blog.uxwind.com/atom.xml" htmlUrl="https://blog.uxwind.com/"/>
         </outline>
     </body>
 </opml>
