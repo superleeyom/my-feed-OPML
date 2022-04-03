@@ -20,8 +20,11 @@
             <outline type="rss" text="GeekPlux Lab" title="GeekPlux Lab" xmlUrl="https://geekplux.com/feed.xml" htmlUrl="https://geekplux.com"/>
             <outline type="rss" text="Newlearnerの自留地" title="Newlearnerの自留地" xmlUrl="https://rsshub.app/telegram/channel/NewlearnerChannel" htmlUrl="https://t.me/s/NewlearnerChannel"/>
             <outline type="rss" text="野生架构师周刊" title="野生架构师周刊" xmlUrl="http://weekly.codelc.com/?format=rss" htmlUrl="http://weekly.codelc.com/"/>
+            <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
             <outline type="rss" text="DecoHack周刊" title="DecoHack周刊" xmlUrl="https://www.decohack.com/feed" htmlUrl="https://www.decohack.com"/>
+            <outline type="rss" text="产品鸭" title="产品鸭" xmlUrl="https://rsshub.app/zhubai/produck" htmlUrl="https://produck.zhubai.love/"/>
             <outline type="rss" text="老司机iOS周报" title="老司机iOS周报" xmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom" htmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases"/>
+            <outline type="rss" text="Things About Design" title="Things About Design" xmlUrl="https://rsshub.app/zhubai/design" htmlUrl="https://design.zhubai.love/"/>
             <outline type="rss" text="Go语言爱好者周刊" title="Go语言爱好者周刊" xmlUrl="https://rsshub.app/go-weekly" htmlUrl="https://studygolang.com/go/weekly"/>
             <outline type="rss" text="独立开发变现周刊" title="独立开发变现周刊" xmlUrl="https://www.ezindie.com/feed/rss.xml" htmlUrl="https://www.ezindie.com/weekly"/>
             <outline type="rss" text="奇舞周刊" title="奇舞周刊" xmlUrl="https://weekly.75.team/rss" htmlUrl="https://weekly.75.team"/>
@@ -45,6 +48,7 @@
             <outline type="rss" text="yihong0618" title="yihong0618" xmlUrl="https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml" htmlUrl="https://github.com/yihong0618/gitblog"/>
             <outline type="rss" text="codedump的网络日志" title="codedump的网络日志" xmlUrl="https://www.codedump.info/index.xml" htmlUrl="https://www.codedump.info/"/>
             <outline type="rss" text="bang’s blog" title="bang’s blog" xmlUrl="http://feeds.feedburner.com/webbang" htmlUrl="http://blog.cnbang.net"/>
+            <outline type="rss" text="DIYgod" title="DIYgod" xmlUrl="https://diygod.me/atom.xml" htmlUrl="https://diygod.me/"/>
             <outline type="rss" text="hayami's blog" title="hayami's blog" xmlUrl="https://hayami-blog.typlog.io/feed.xml" htmlUrl="https://hayami-blog.typlog.io/"/>
             <outline type="rss" text="云风的BLOG" title="云风的BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" htmlUrl="https://blog.codingnow.com/"/>
             <outline type="rss" text="meditic的博客" title="meditic的博客" xmlUrl="https://meditic.com/feed" htmlUrl="https://meditic.com"/>
