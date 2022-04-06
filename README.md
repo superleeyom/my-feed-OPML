@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-04-05 09:47:58**
+**最新更新时间（北京时间）：2022-04-06 09:44:19**
 
 ## 如何使用
 
@@ -21,7 +21,7 @@
    - **EMAIL_HOST**：可选，邮箱协议
    - **SC_KEY**：可选，Server酱的 secret key
 
-- 修改 `feedly_opml_import.yml`，修改如下的配置项为你自己的 Github userName 和 Email：
+- 修改 `.github/workflows/feedly_opml_import.yml`，修改如下的配置项为你自己的 Github userName 和 email：
    ```yml
    env:
     GITHUB_NAME: superleeyom
