@@ -21,7 +21,7 @@
    - **EMAIL_HOST**：可选，邮箱协议
    - **SC_KEY**：可选，Server酱的 secret key
 
-- 修改 `feedly_opml_import.yml`，修改如下的配置项为你自己的 Github userName 和 Email：
+- 修改 `.github/workflows/feedly_opml_import.yml`，修改如下的配置项为你自己的 Github userName 和 email：
    ```yml
    env:
     GITHUB_NAME: superleeyom
