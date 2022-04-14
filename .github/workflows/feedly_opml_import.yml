@@ -35,15 +35,12 @@ jobs:
           EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
           SC_KEY: ${{ secrets.SC_KEY }}
 
-      - name: update README.md
-        uses: github-actions-x/commit@v2.6
-        with:
-          github-token: ${{ secrets.G_TOKEN }}
-          commit-message: ":memo: update feed.opml"
-          files: README.md feed.opml
-          rebase: 'true'
-          name: ${{ env.GITHUB_NAME }}
-          email: ${{ env.GITHUB_EMAIL }}
+      - name: update opml
+        run: |
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git config --local user.name "${{ env.GITHUB_EMAIL }}"
+          git commit -a -m '🎉update opml' || echo "nothing to commit"
+          git push || echo "nothing to push"
 
       - name: create release
         uses: marvinpinto/action-automatic-releases@latest
