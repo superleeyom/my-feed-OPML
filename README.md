@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-04-12 09:53:01**
+**最新更新时间（北京时间）：2022-04-14 09:41:07**
 
 ## 如何使用
 
@@ -33,7 +33,6 @@
 
 Newsletter
 ----------
-- [✅ 增长黑客通讯周刊](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)：[feed](https://us6.campaign-archive.com/feed?u=e4582460499f4aadae1a90e2b&id=d2c14f8a94)
 - [✅ iOS摸鱼周报](https://zhangferry.com/)：[feed](https://zhangferry.com/atom.xml)
 - [✅ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
@@ -44,9 +43,7 @@ Newsletter
 - [✅ 阿里云前端技术周刊](https://github.com/aliyunfe/weekly/releases)：[feed](https://github.com/aliyunfe/weekly/releases.atom)
 - [✅ 好工具周刊](https://discuss-cn.bestxtools.com/)：[feed](https://discuss-cn.bestxtools.com/atom/t/weekly/discussions)
 - [✅ GeekPlux Lab](https://geekplux.com)：[feed](https://geekplux.com/feed.xml)
-- [✅ Newlearnerの自留地](https://t.me/s/NewlearnerChannel)：[feed](https://rsshub.app/telegram/channel/NewlearnerChannel)
 - [✅ 野生架构师周刊](http://weekly.codelc.com/)：[feed](http://weekly.codelc.com/?format=rss)
-- [✅ 少数派](https://sspai.com)：[feed](https://sspai.com/feed)
 - [✅ DecoHack周刊](https://www.decohack.com)：[feed](https://www.decohack.com/feed)
 - [✅ 产品鸭](https://produck.zhubai.love/)：[feed](https://rsshub.app/zhubai/produck)
 - [✅ 老司机iOS周报](https://github.com/SwiftOldDriver/iOS-Weekly/releases)：[feed](https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom)
