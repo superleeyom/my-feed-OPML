@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-06-22 10:23:35**
+**最新更新时间（北京时间）：2022-06-23 10:10:43**
 
 ## 如何使用
 
@@ -77,7 +77,7 @@ Blog
 - [✅ lcomplete的技术分享](https://tech.codelc.com)：[feed](https://tech.codelc.com/rss.xml)
 - [✅ hayami's blog](https://hayami.typlog.io/)：[feed](https://hayami-blog.typlog.io/feed.xml)
 - [✅ 云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
-- [✅ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
+- [❌ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
 - [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
 - [✅ 龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [✅ TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
