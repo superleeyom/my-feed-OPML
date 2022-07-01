@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-06-30 10:21:42**
+**最新更新时间（北京时间）：2022-07-01 10:33:31**
 
 ## 如何使用
 
@@ -33,7 +33,7 @@
 
 Newsletter
 ----------
-- [✅ iOS摸鱼周报](http://www.zhangferry.com)：[feed](https://zhangferry.com/atom.xml)
+- [✅ iOS摸鱼周报](https://zhangferry.com)：[feed](https://zhangferry.com/atom.xml)
 - [✅ Design Scenes Weekly](https://designscenes.zhubai.love/)：[feed](https://rsshub.app/zhubai/designscenes)
 - [✅ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)

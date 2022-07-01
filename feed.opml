@@ -7,7 +7,7 @@
     <body>
         <outline text="Must Read" title="Must Read"/>
         <outline text="Newsletter" title="Newsletter">
-            <outline type="rss" text="iOS摸鱼周报" title="iOS摸鱼周报" xmlUrl="https://zhangferry.com/atom.xml" htmlUrl="http://www.zhangferry.com"/>
+            <outline type="rss" text="iOS摸鱼周报" title="iOS摸鱼周报" xmlUrl="https://zhangferry.com/atom.xml" htmlUrl="https://zhangferry.com"/>
             <outline type="rss" text="Design Scenes Weekly" title="Design Scenes Weekly" xmlUrl="https://rsshub.app/zhubai/designscenes" htmlUrl="https://designscenes.zhubai.love/"/>
             <outline type="rss" text="前端食堂技术周刊" title="前端食堂技术周刊" xmlUrl="https://rsshub.app/github/issue/Geekhyt/weekly" htmlUrl="https://github.com/Geekhyt/weekly/issues"/>
             <outline type="rss" text="前端精读周刊" title="前端精读周刊" xmlUrl="https://github.com/ascoders/weekly/releases.atom" htmlUrl="https://github.com/ascoders/weekly/releases"/>
