@@ -47,14 +47,16 @@
             <outline type="rss" text="codedump的网络日志" title="codedump的网络日志" xmlUrl="https://www.codedump.info/index.xml" htmlUrl="https://www.codedump.info/"/>
             <outline type="rss" text="bang’s blog" title="bang’s blog" xmlUrl="http://feeds.feedburner.com/webbang" htmlUrl="http://blog.cnbang.net"/>
             <outline type="rss" text="DIYgod" title="DIYgod" xmlUrl="https://diygod.me/atom.xml" htmlUrl="https://diygod.me/"/>
-            <outline type="rss" text="lcomplete的技术分享" title="lcomplete的技术分享" xmlUrl="https://tech.codelc.com/rss.xml" htmlUrl="https://tech.codelc.com"/>
             <outline type="rss" text="hayami's blog" title="hayami's blog" xmlUrl="https://hayami-blog.typlog.io/feed.xml" htmlUrl="https://hayami.typlog.io/"/>
             <outline type="rss" text="云风的BLOG" title="云风的BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" htmlUrl="https://blog.codingnow.com/"/>
             <outline type="rss" text="meditic的博客" title="meditic的博客" xmlUrl="https://meditic.com/feed" htmlUrl="https://meditic.com"/>
             <outline type="rss" text="左耳朵耗子" title="左耳朵耗子" xmlUrl="http://coolshell.cn/feed" htmlUrl="https://coolshell.cn"/>
+            <outline type="rss" text="面向信仰编程" title="面向信仰编程" xmlUrl="https://draveness.me/feed.xml" htmlUrl="https://draveness.me/"/>
             <outline type="rss" text="龙爪槐守望者" title="龙爪槐守望者" xmlUrl="http://www.ftium4.com/rss.xml" htmlUrl="http://www.ftium4.com/"/>
             <outline type="rss" text="TualatriX" title="TualatriX" xmlUrl="http://imtx.me/feed/latest/" htmlUrl="http://imtx.me/"/>
+            <outline type="rss" text="James Tsang's Blog" title="James Tsang's Blog" xmlUrl="https://zwt.one/feed" htmlUrl="https://zwt.one"/>
             <outline type="rss" text="Randy's Blog" title="Randy's Blog" xmlUrl="https://lutaonan.com/rss.xml" htmlUrl="https://lutaonan.com/"/>
+            <outline type="rss" text="Owen的博客" title="Owen的博客" xmlUrl="https://www.owenyoung.com/atom.xml" htmlUrl="https://www.owenyoung.com"/>
         </outline>
     </body>
 </opml>
