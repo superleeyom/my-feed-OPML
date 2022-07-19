@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-07-19 10:36:50**
+**最新更新时间（北京时间）：2022-07-19 10:50:14**
 
 ## 如何使用
 
@@ -68,13 +68,13 @@ Blog
 - [✅ crossoverJie's Blog](http://crossoverjie.top/)：[feed](https://crossoverjie.top/atom.xml)
 - [✅ 程序员的喵](http://catcoding.me/)：[feed](https://catcoding.me/atom.xml)
 - [✅ 美团技术团队](https://tech.meituan.com/feed/)：[feed](http://tech.meituan.com/atom.xml)
+- [✅ hayami's blog](https://t.me/s/hayami_kiraa)：[feed](https://rsshub.app/telegram/channel/hayami_kiraa)
 - [✅ 代码家](https://daimajia.com)：[feed](https://daimajia.com/feed)
 - [✅ OneV's Den](https://onevcat.com)：[feed](http://www.onevcat.com/rss/)
 - [✅ yihong0618](https://github.com/yihong0618/gitblog)：[feed](https://raw.githubusercontent.com/yihong0618/gitblog/master/feed.xml)
 - [✅ codedump的网络日志](https://www.codedump.info/)：[feed](https://www.codedump.info/index.xml)
 - [✅ bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
 - [✅ DIYgod](https://diygod.me/)：[feed](https://diygod.me/atom.xml)
-- [❌ hayami's blog](https://hayami.typlog.io/)：[feed](https://hayami-blog.typlog.io/feed.xml)
 - [✅ 云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
 - [✅ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
 - [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
