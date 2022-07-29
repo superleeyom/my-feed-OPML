@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-07-28 10:23:18**
+**最新更新时间（北京时间）：2022-07-29 10:32:18**
 
 ## 如何使用
 
@@ -82,7 +82,7 @@ Blog
 - [✅ 戴铭的博客](http://ming1016.github.io/)：[feed](https://ming1016.github.io/atom.xml)
 - [✅ 龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [✅ TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
-- [❌ James Tsang's Blog](https://zwt.one)：[feed](https://zwt.one/feed)
+- [✅ James Tsang's Blog](https://zwt.one)：[feed](https://zwt.one/feed)
 - [✅ Randy's Blog](https://lutaonan.com/)：[feed](https://lutaonan.com/rss.xml)
 - [✅ Owen的博客](https://www.owenyoung.com)：[feed](https://www.owenyoung.com/atom.xml)
 
