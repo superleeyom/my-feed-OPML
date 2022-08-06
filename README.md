@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-08-03 10:25:21**
+**最新更新时间（北京时间）：2022-08-06 10:14:33**
 
 ## 如何使用
 
@@ -34,8 +34,8 @@
 Newsletter
 ----------
 - [✅ iOS摸鱼周报](https://zhangferry.com)：[feed](https://zhangferry.com/atom.xml)
-- [✅ Design Scenes Weekly](https://designscenes.zhubai.love/)：[feed](https://rsshub.app/zhubai/designscenes)
-- [✅ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
+- [❌ Design Scenes Weekly](https://designscenes.zhubai.love/)：[feed](https://rsshub.app/zhubai/designscenes)
+- [❌ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
 - [✅ 混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
 - [✅ 13的Apple開發者週報](https://www.ethanhuang13.com)：[feed](https://ethanhuang13.substack.com/feed/)
@@ -46,9 +46,9 @@ Newsletter
 - [✅ GeekPlux Lab](https://geekplux.com)：[feed](https://geekplux.com/feed.xml)
 - [✅ 野生架构师周刊](http://weekly.codelc.com/)：[feed](http://weekly.codelc.com/?format=rss)
 - [✅ DecoHack周刊](https://www.decohack.com)：[feed](https://www.decohack.com/feed)
-- [✅ 产品鸭](https://produck.zhubai.love/)：[feed](https://rsshub.app/zhubai/produck)
+- [❌ 产品鸭](https://produck.zhubai.love/)：[feed](https://rsshub.app/zhubai/produck)
 - [✅ 老司机iOS周报](https://github.com/SwiftOldDriver/iOS-Weekly/releases)：[feed](https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom)
-- [✅ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
+- [❌ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
 - [✅ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
 - [✅ 独立开发变现周刊](https://www.ezindie.com/weekly)：[feed](https://www.ezindie.com/feed/rss.xml)
 - [✅ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
