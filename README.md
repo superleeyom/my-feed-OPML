@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-09-14 10:44:44**
+**最新更新时间（北京时间）：2022-09-15 10:54:00**
 
 ## 如何使用
 
@@ -33,7 +33,7 @@
 
 Newsletter
 ----------
-- [✅ iOS摸鱼周报](https://zhangferry.com)：[feed](https://zhangferry.com/atom.xml)
+- [❌ iOS摸鱼周报](https://zhangferry.com)：[feed](https://zhangferry.com/atom.xml)
 - [✅ Design Scenes Weekly](https://designscenes.zhubai.love/)：[feed](https://rsshub.app/zhubai/designscenes)
 - [✅ 前端食堂技术周刊](https://github.com/Geekhyt/weekly/issues)：[feed](https://rsshub.app/github/issue/Geekhyt/weekly)
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
@@ -60,7 +60,7 @@ Blog
 - [✅ 阮一峰的网络日志](http://www.ruanyifeng.com/blog/)：[feed](http://feeds.feedburner.com/ruanyifeng)
 - [✅ 王登科的博客](https://greatdk.com)：[feed](https://greatdk.com/feed)
 - [✅ forecho's Blog](https://blog.forecho.com/)：[feed](http://blog.forecho.com/atom.xml)
-- [✅ Limboy](https://limboy.me)：[feed](https://limboy.me/index.xml)
+- [❌ Limboy](https://limboy.me)：[feed](https://limboy.me/index.xml)
 - [✅ Leeyom's Blog](https://github.com/superleeyom/blog)：[feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
 - [✅ 唐巧的博客](https://blog.devtang.com/)：[feed](http://blog.devtang.com/atom.xml)
 - [✅ 马大伟](https://www.bmpi.dev/)：[feed](https://www.bmpi.dev/index.xml)
