@@ -14,7 +14,6 @@
             <outline type="rss" text="混沌周刊" title="混沌周刊" xmlUrl="https://weekly.love/feed/atom/" htmlUrl="https://weekly.love"/>
             <outline type="rss" text="13的Apple開發者週報" title="13的Apple開發者週報" xmlUrl="https://ethanhuang13.substack.com/feed/" htmlUrl="https://www.ethanhuang13.com"/>
             <outline type="rss" text="HelloGitHub月刊" title="HelloGitHub月刊" xmlUrl="https://hellogithub.com/rss" htmlUrl="https://hellogithub.com"/>
-            <outline type="rss" text="编程狂人周刊" title="编程狂人周刊" xmlUrl="http://www.tuicool.com/mags/rss_programming.rss" htmlUrl="https://www.tuicool.com/mags"/>
             <outline type="rss" text="阿里云前端技术周刊" title="阿里云前端技术周刊" xmlUrl="https://github.com/aliyunfe/weekly/releases.atom" htmlUrl="https://github.com/aliyunfe/weekly/releases"/>
             <outline type="rss" text="好工具周刊" title="好工具周刊" xmlUrl="https://discuss-cn.bestxtools.com/atom/t/weekly/discussions" htmlUrl="https://discuss-cn.bestxtools.com/"/>
             <outline type="rss" text="GeekPlux Lab" title="GeekPlux Lab" xmlUrl="https://geekplux.com/feed.xml" htmlUrl="https://geekplux.com"/>
