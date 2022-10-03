@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-10-02 10:54:52**
+**最新更新时间（北京时间）：2022-10-03 10:19:02**
 
 ## 如何使用
 
@@ -50,7 +50,7 @@ Newsletter
 - [✅ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
 - [✅ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
 - [✅ 独立开发变现周刊](https://www.ezindie.com/weekly)：[feed](https://www.ezindie.com/feed/rss.xml)
-- [✅ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
+- [❌ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
 
 Blog
 ----
