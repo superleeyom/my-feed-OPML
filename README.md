@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-10-03 10:19:02**
+**最新更新时间（北京时间）：2022-10-04 10:28:12**
 
 ## 如何使用
 
@@ -39,7 +39,7 @@ Newsletter
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
 - [✅ 混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
 - [✅ 13的Apple開發者週報](https://www.ethanhuang13.com)：[feed](https://ethanhuang13.substack.com/feed/)
-- [✅ HelloGitHub月刊](https://hellogithub.com)：[feed](https://hellogithub.com/rss)
+- [❌ HelloGitHub月刊](https://hellogithub.com)：[feed](https://hellogithub.com/rss)
 - [✅ 阿里云前端技术周刊](https://github.com/aliyunfe/weekly/releases)：[feed](https://github.com/aliyunfe/weekly/releases.atom)
 - [✅ 好工具周刊](https://discuss-cn.bestxtools.com/)：[feed](https://discuss-cn.bestxtools.com/atom/t/weekly/discussions)
 - [✅ GeekPlux Lab](https://geekplux.com)：[feed](https://geekplux.com/feed.xml)
@@ -50,7 +50,7 @@ Newsletter
 - [✅ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
 - [✅ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
 - [✅ 独立开发变现周刊](https://www.ezindie.com/weekly)：[feed](https://www.ezindie.com/feed/rss.xml)
-- [❌ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
+- [✅ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
 
 Blog
 ----
