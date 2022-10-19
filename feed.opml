@@ -14,11 +14,10 @@
             <outline type="rss" text="混沌周刊" title="混沌周刊" xmlUrl="https://weekly.love/feed/atom/" htmlUrl="https://weekly.love"/>
             <outline type="rss" text="13的Apple開發者週報" title="13的Apple開發者週報" xmlUrl="https://ethanhuang13.substack.com/feed/" htmlUrl="https://www.ethanhuang13.com"/>
             <outline type="rss" text="HelloGitHub月刊" title="HelloGitHub月刊" xmlUrl="https://hellogithub.com/rss" htmlUrl="https://hellogithub.com"/>
-            <outline type="rss" text="阿里云前端技术周刊" title="阿里云前端技术周刊" xmlUrl="https://github.com/aliyunfe/weekly/releases.atom" htmlUrl="https://github.com/aliyunfe/weekly/releases"/>
             <outline type="rss" text="好工具周刊" title="好工具周刊" xmlUrl="https://discuss-cn.bestxtools.com/atom/t/weekly/discussions" htmlUrl="https://discuss-cn.bestxtools.com/"/>
             <outline type="rss" text="GeekPlux Lab" title="GeekPlux Lab" xmlUrl="https://geekplux.com/feed.xml" htmlUrl="https://geekplux.com"/>
-            <outline type="rss" text="野生架构师周刊" title="野生架构师周刊" xmlUrl="http://weekly.codelc.com/?format=rss" htmlUrl="http://weekly.codelc.com/"/>
             <outline type="rss" text="DecoHack周刊" title="DecoHack周刊" xmlUrl="https://www.decohack.com/feed" htmlUrl="https://www.decohack.com"/>
+            <outline type="rss" text="潮流周刊" title="潮流周刊" xmlUrl="https://weekly.tw93.fun/rss.xml" htmlUrl="https://weekly.tw93.fun/"/>
             <outline type="rss" text="产品鸭" title="产品鸭" xmlUrl="https://rsshub.app/zhubai/produck" htmlUrl="https://produck.zhubai.love/"/>
             <outline type="rss" text="老司机iOS周报" title="老司机iOS周报" xmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom" htmlUrl="https://github.com/SwiftOldDriver/iOS-Weekly/releases"/>
             <outline type="rss" text="Things About Design" title="Things About Design" xmlUrl="https://rsshub.app/zhubai/design" htmlUrl="https://design.zhubai.love/"/>
