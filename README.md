@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-11-16 10:05:58**
+**最新更新时间（北京时间）：2022-11-17 10:04:57**
 
 ## 如何使用
 
@@ -49,7 +49,7 @@ Newsletter
 - [✅ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
 - [✅ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
 - [✅ 独立开发变现周刊](https://www.ezindie.com/weekly)：[feed](https://www.ezindie.com/feed/rss.xml)
-- [✅ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
+- [❌ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
 
 Blog
 ----
@@ -74,7 +74,7 @@ Blog
 - [✅ bang’s blog](http://blog.cnbang.net)：[feed](http://feeds.feedburner.com/webbang)
 - [✅ DIYgod](https://diygod.xlog.app)：[feed](https://diygod.me/atom.xml)
 - [✅ 云风的BLOG](https://blog.codingnow.com/)：[feed](http://blog.codingnow.com/atom.xml)
-- [❌ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
+- [✅ meditic的博客](https://meditic.com)：[feed](https://meditic.com/feed)
 - [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
 - [✅ 面向信仰编程](https://draveness.me/)：[feed](https://draveness.me/feed.xml)
 - [✅ 戴铭的博客](http://ming1016.github.io/)：[feed](https://ming1016.github.io/atom.xml)
