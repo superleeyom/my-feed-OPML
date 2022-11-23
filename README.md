@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2022-11-22 10:07:18**
+**最新更新时间（北京时间）：2022-11-23 09:55:14**
 
 ## 如何使用
 
@@ -39,7 +39,7 @@ Newsletter
 - [✅ 前端精读周刊](https://github.com/ascoders/weekly/releases)：[feed](https://github.com/ascoders/weekly/releases.atom)
 - [✅ 混沌周刊](https://weekly.love)：[feed](https://weekly.love/feed/atom/)
 - [✅ 13的Apple開發者週報](https://www.ethanhuang13.com)：[feed](https://ethanhuang13.substack.com/feed/)
-- [❌ HelloGitHub月刊](https://hellogithub.com)：[feed](https://hellogithub.com/rss)
+- [✅ HelloGitHub月刊](https://hellogithub.com)：[feed](https://hellogithub.com/rss)
 - [✅ 好工具周刊](https://discuss-cn.bestxtools.com/)：[feed](https://discuss-cn.bestxtools.com/atom/t/weekly/discussions)
 - [✅ GeekPlux Lab](https://geekplux.com)：[feed](https://geekplux.com/feed.xml)
 - [✅ DecoHack周刊](https://www.decohack.com)：[feed](https://www.decohack.com/feed)
