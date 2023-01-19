@@ -28,6 +28,7 @@
         <outline text="Blog" title="Blog">
             <outline type="rss" text="iPotato" title="iPotato" xmlUrl="http://ipotato.me/feed" htmlUrl="https://ipotato.me"/>
             <outline type="rss" text="Eason Yang's Blog" title="Eason Yang's Blog" xmlUrl="https://easonyang.com/atom.xml" htmlUrl="https://easonyang.com/"/>
+            <outline type="rss" text="meditic's Blog" title="meditic's Blog" xmlUrl="https://meditic.com/rss.xml" htmlUrl="https://meditic.com/"/>
             <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="http://feeds.feedburner.com/ruanyifeng" htmlUrl="http://www.ruanyifeng.com/blog/"/>
             <outline type="rss" text="王登科的博客" title="王登科的博客" xmlUrl="https://greatdk.com/feed" htmlUrl="https://greatdk.com"/>
             <outline type="rss" text="forecho's Blog" title="forecho's Blog" xmlUrl="http://blog.forecho.com/atom.xml" htmlUrl="https://blog.forecho.com/"/>
@@ -47,7 +48,6 @@
             <outline type="rss" text="bang’s blog" title="bang’s blog" xmlUrl="http://feeds.feedburner.com/webbang" htmlUrl="http://blog.cnbang.net"/>
             <outline type="rss" text="DIYgod" title="DIYgod" xmlUrl="https://diygod.me/atom.xml" htmlUrl="https://diygod.xlog.app"/>
             <outline type="rss" text="云风的BLOG" title="云风的BLOG" xmlUrl="http://blog.codingnow.com/atom.xml" htmlUrl="https://blog.codingnow.com/"/>
-            <outline type="rss" text="meditic的博客" title="meditic的博客" xmlUrl="https://meditic.com/feed" htmlUrl="https://meditic.com"/>
             <outline type="rss" text="左耳朵耗子" title="左耳朵耗子" xmlUrl="http://coolshell.cn/feed" htmlUrl="https://coolshell.cn"/>
             <outline type="rss" text="面向信仰编程" title="面向信仰编程" xmlUrl="https://draveness.me/feed.xml" htmlUrl="https://draveness.me/"/>
             <outline type="rss" text="戴铭的博客" title="戴铭的博客" xmlUrl="https://ming1016.github.io/atom.xml" htmlUrl="http://ming1016.github.io/"/>
