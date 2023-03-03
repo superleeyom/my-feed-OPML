@@ -5,7 +5,6 @@
         <title>Leeyom subscriptions in feedly Cloud</title>
     </head>
     <body>
-        <outline text="Must Read" title="Must Read"/>
         <outline text="Newsletter" title="Newsletter">
             <outline type="rss" text="iOS摸鱼周报" title="iOS摸鱼周报" xmlUrl="https://zhangferry.com/atom.xml" htmlUrl="https://zhangferry.com"/>
             <outline type="rss" text="Design Scenes Weekly" title="Design Scenes Weekly" xmlUrl="https://rsshub.app/zhubai/designscenes" htmlUrl="https://designscenes.zhubai.love/"/>
