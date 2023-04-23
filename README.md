@@ -5,7 +5,7 @@
 
 **分享我订阅的一些 Blog 和 Newsletter，通过 Github Actions，每天自动同步我 Feedly 上的订阅源，✅ 代表能正常订阅，❌ 代表暂无法订阅（对于无法订阅的 feed，支持 Telegram Bot、Email、Server酱等推送工具提醒更新），**[opml 下载地址](https://github.com/superleeyom/my-feed-OPML/releases/download/latest/feed.opml)
 
-**最新更新时间（北京时间）：2023-04-02 09:38:20**
+**最新更新时间（北京时间）：2023-04-23 17:39:33**
 
 ## 如何使用
 
@@ -47,7 +47,7 @@ Newsletter
 - [✅ 产品鸭](https://produck.zhubai.love/)：[feed](https://rsshub.app/zhubai/produck)
 - [✅ 老司机iOS周报](https://github.com/SwiftOldDriver/iOS-Weekly/releases)：[feed](https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom)
 - [✅ Things About Design](https://design.zhubai.love/)：[feed](https://rsshub.app/zhubai/design)
-- [✅ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
+- [❌ Go语言爱好者周刊](https://studygolang.com/go/weekly)：[feed](https://rsshub.app/go-weekly)
 - [✅ 独立开发变现周刊](https://www.ezindie.com/weekly)：[feed](https://www.ezindie.com/feed/rss.xml)
 - [✅ 奇舞周刊](https://weekly.75.team)：[feed](https://weekly.75.team/rss)
 
@@ -78,7 +78,7 @@ Blog
 - [✅ 左耳朵耗子](https://coolshell.cn)：[feed](http://coolshell.cn/feed)
 - [✅ 面向信仰编程](https://draveness.me/)：[feed](https://draveness.me/feed.xml)
 - [✅ 戴铭的博客](http://ming1016.github.io/)：[feed](https://ming1016.github.io/atom.xml)
-- [✅ 龙爪槐守望者](http://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
+- [✅ 龙爪槐守望者](https://www.ftium4.com/)：[feed](http://www.ftium4.com/rss.xml)
 - [✅ TualatriX](http://imtx.me/)：[feed](http://imtx.me/feed/latest/)
 - [✅ James Tsang's Blog](https://zwt.one)：[feed](https://zwt.one/feed)
 - [✅ Randy's Blog](https://lutaonan.com/)：[feed](https://lutaonan.com/rss.xml)
